@@ -3,4 +3,4 @@ Documentation for the DOMUS real estate blockchain system
 
 ___________________________________________________________________________________
 
-[## 1. Introduction](./##1.Introduction.md)
+- [Introduction](1-introduction.md)
