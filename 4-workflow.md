@@ -29,14 +29,6 @@ The transaction process in DOMUS is divided into key stages, each recorded thoug
 - New hash generated including acceptance data
 - Recorded on blockchain
 
----
-
-## 4.4 Seller Acceptance
-
-- Seller accepts proposal
-- New hash generated including acceptance data
-- Recorded on blockchain
-
 --- 
 
 ## 4.5 Payment Registration
@@ -48,13 +40,6 @@ The transaction process in DOMUS is divided into key stages, each recorded thoug
 ---
 
 ## 4.6 Transaction Finalization
-
-- Final transaction summary is generated
-- Final hash created and stored
-
----
-
-## 4.6 Transaction Finalization 
 
 - Final transaction summary is generated
 - Final hash created and stored
