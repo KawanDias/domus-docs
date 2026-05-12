@@ -13,7 +13,7 @@ The architecture is divided into:
 
 This separation improves modularity, scalability, and maintainability.
 
---
+---
 
 ## 2.2 Frontend Layer
 
