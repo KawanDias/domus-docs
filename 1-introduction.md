@@ -2,149 +2,136 @@
 
 ## 1.1 What is DOMUS?
 
-DOMUS is a real estate platform designed to modernize property transactions through the integration of traditional web technologies with blockchain-based verification mechanisms.
+DOMUS is a real estate platform designed to improve the integrity and transparency of digital property transactions through blockchain-based verification mechanisms.
 
-The platform does not attempt to replace existing legal, banking, or governmental infrastructures. Instead, DOMUS introduces blockchain as a complementary security layer capable of improving transaction integrity, transparency, and auditability.
+Rather than replacing existing legal, banking, or governmental infrastructures, the platform introduces blockchain as a complementary verification layer capable of strengthening auditability and reducing risks assodicated with data manipulation.
 
-The system follows a hybrid architecture where operational data remains off-chain while cryptographic proofs are stored on-chain.
+The system follows a hybrid operational model that combines conventional Web2 infrastructure with Web3 verification mechanisms. Operational and sensitive data remain stored within traditional backend systems, while cryptographic proofs are registered on blockchain networkds to provide immutable validation records.
 
----
-
-## 1.2 Real Estate Market Challenges
-
-The traditional real estate sector presents several structural limitations that directly impact security and transparency during negotiations.
-
-### Main challenges include:
-
-- Excessive bureaucracy during transactions
-- Centralized databases vulnerable to manipulation
-- Lack of transparent auditing mechanisms
-- Difficulty validating transaction authenticity
-- High dependence on intermediaries
-- Risk of document fraud and unauthorized modifications
-
-These issues create inefficiencies and reduce trust between buyers, sellers, and intermediaries.
+This approach allows DOMUS to balance usability, scalability, privacy, and security without exposing confidential transactional information publicly.
 
 ---
 
-## 1.3 Why Blockchain?
+## 1.2 The Problem
 
-Blockchain technology introduces characteristics capable of solving integrity-related problems in digital systems.
+The traditional real estate sector still depends heavily on centralized digital infrastructures and bureaucratic validation processes. Although these sytems are widely adopted, they present limitations related to transparency, integrity verification, and long-term auditability.
 
-DOMUS uses blockchain due to its ability to provide:
+Real estate transactions frequently involve multiple intermediaries, document exchanges, and institutional dependencies, In such environments, verifying the authenticity and integrity of records may become difficult, especially when historial changes are not immutable or independently verifiable.
 
-- Immutable transaction records
-- Distributed verification
-- Transparent auditability
-- Tamper detection
-- Timestamped validation
+### Some of the main challenges observed in conventional platforms include:
 
-Instead of storing sensitive information directly on-chain, the platform stores cryptographic hashes representing transaction states.
+- Centralized databases vulnerable to unauthorized modifications
+- Lack of immutable transaction histories
+- Difficulty validating data authenticity
+- Limited transparency during negotiations
+- High dependence on institutional trust
+- Risks involving document fraud and manipulation
 
-This model preserves privacy while maintaining verifiability.
-
----
-
-## 1.4 Problem Statement
-
-Traditional transaction systems rely heavily on centralized infrastructures. Although functional, these systems present critical vulnerabilities:
-
-- Internal database manipulation
-- Lack of immutable historical records
-- Difficulties in proving data authenticity
-- Dependence on institutional trust
-
-In scenarios involving high-value transactions such as property negotiations, integrity failures may result in legal disputes, financial losses, and fraud.
+In high-value transactions such as property negotiations, integrity failures may generate financial disputes, legal uncertainty, and reduced trust between involved parties.
 
 ---
 
-## 1.5 Proposed Solution
+## 1.3 The Approach
 
-DOMUS introduces a blockchain-based verification layer integrated with a conventional web infrastructure.
+DOMUS addresses these challenges through the integration of blockchain-based verification mechanisms into a conventional web platform architecture.
 
-The proposed model operates as follows:
+Instead of storing sensitive transactional information directly on-chain, the platform generates cryptographic hashes representing critical transaction states. These hashes are then recorded on blockchain networks, creating immutable proof records without exposing private data publicly.
 
-1. Transaction events occur within the platform
-2. The backend generates cryptographic hashes of critical data
-3. Hashes are stored on blockchain networks
-4. Original data remains stored off-chain
-5. Future validations compare current data with blockchain records
+### The operational flow of the platform can be summarized as follows:
 
-This architecture creates an immutable verification trail without exposing confidential information publicly.
+1. Transaction events occur within DOMUS platform
+2. Critical transaction data is processed by the backend
+3. Cryptographic hashes are generated from relevant records
+4. Hashes are stored on the blockchain
+5. Future validations compare current data against blockchain-registered proofs
+
+Through this model, DOMUS provides tamper detection, transparent verification, and auditability while preserving scalability and reducing blockchain operational costs.
+
+The platform therefore adopts blockchain not as a replacement for traditional systems, but as a verification mechanism capable of reinforcing trust within digital real estate operations.
 
 ---
 
-## 1.6 Design Philosophy
+## 1.4 Design Principles
 
-The architectural decisions behind DOMUS are based on the following principles:
-
-### Minimal On-chain Storage
-Only verification hashes are stored on-chain to reduce operational costs.
+The architectural and technological decisions behind DOMUS are guided by principles intended to balance security, praticality, and long-term scalability.
 
 ### Cost Efficiency
-The system avoids unnecessary blockchain operations.
 
-### Scalability
-The platform is designed to support large volumes of transactions without excessive blockchain dependency.
+The system avoids excessive blockchain interactions by limiting on-chain operations to essential verification processes, making the platform economically sustainable.
 
-### Legal Compatibility
-DOMUS complements existing legal systems instead of attempting to replace them.
+### Scalability 
 
----
+Most operational logic remains withing conventional backend infrastructure, allowing the platform to support larger transaction volumes without blockchain performance limitations becoming a bottleneck.
 
-## 1.7 Objectives
+### Legal Compatibility 
 
-### General Objective
-
-Develop a secure and auditable real estate transaction platform using blockchain-based verification mechanisms.
-
-### Specific Objectives
-
-- Ensure transaction integrity
-- Detect unauthorized modifications
-- Improve transparency
-- Enable auditability
-- Reduce fraud risks
-- Maintain low operational costs
+DOMUS is designed to complement existing legal and institutional processes rather than replace them. The platform functions as an additional verification layer compatible with current real estate procedures and regulatory environments 
 
 ---
 
-## 1.8 Scope of the Project
+## 1.5 Scope and Non-Goals
 
-### What DOMUS Does
+DOMUS focuses specially on trasaction integrity verification and auditability within digital real state systems.
 
-- Registers transaction proofs on blockchain
-- Validates transaction integrity
-- Creates immutable audit trails
-- Provides transparent verification mechanisms
+### The platform is responsible for: 
 
-### What DOMUS Does NOT Do
+- Registering cryptographic transaction proofs on blockchain networks
+- Verifying transaction integrity
+- Creating immutable audit trails
+- Providing transparent validation mechanisms
 
-- Tokenize properties
-- Replace notary offices
-- Decentralize legal ownership
-- Eliminate traditional payment systems
+However, some functionalities commonly associated with blockchain projects are intentionally outside the scope of DOMUS.
 
----
+### The platform does not:
 
-## 1.9 Expected Impact
+- Tokenize real estate assets
+- Replace notary offices or governmental institutions
+- Decentralize legal property ownership
+- Eliminate traditional banking or payment systems
 
-The implementation of blockchain verification mechanisms may significantly improve trust within digital real estate platforms.
+These limitations are intentional and align with the project's objective of imporving verification and transaparency without attempting to fully restructure the existing real estate ecosystem.
 
-Expected benefits include:
 
-- Increased transaction reliability
-- Better transparency between parties
-- Reduced fraud opportunities
-- Easier auditing processes
-- Improved digital trust infrastructure
 
----
 
-## 1.10 Key Concept
 
-DOMUS follows a hybrid operational model:
 
-> Web2 Infrastructure + Web3 Verification Layer
 
-This approach balances usability, security, cost efficiency, and scalability.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
