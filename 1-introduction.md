@@ -4,7 +4,7 @@
 
 DOMUS is a real estate platform designed to improve the integrity and transparency of digital property transactions through blockchain-based verification mechanisms.
 
-Rather than replacing existing legal, banking, or governmental infrastructures, the platform introduces blockchain as a complementary verification layer capable of strengthening auditability and reducing risks assodicated with data manipulation.
+Rather than replacing existing legal, banking, or governmental infrastructures, the platform introduces blockchain as a complementary verification layer capable of strengthening auditability and reducing risks associated with data manipulation.
 
 The system follows a hybrid operational model that combines conventional Web2 infrastructure with Web3 verification mechanisms. Operational and sensitive data remain stored within traditional backend systems, while cryptographic proofs are registered on blockchain networkds to provide immutable validation records.
 
@@ -14,7 +14,7 @@ This approach allows DOMUS to balance usability, scalability, privacy, and secur
 
 ## 1.2 The Problem
 
-The traditional real estate sector still depends heavily on centralized digital infrastructures and bureaucratic validation processes. Although these sytems are widely adopted, they present limitations related to transparency, integrity verification, and long-term auditability.
+The traditional real estate sector still depends heavily on centralized digital infrastructures and bureaucratic validation processes. Although these systems are widely adopted, they present limitations related to transparency, integrity verification, and long-term auditability.
 
 Real estate transactions frequently involve multiple intermediaries, document exchanges, and institutional dependencies, In such environments, verifying the authenticity and integrity of records may become difficult, especially when historial changes are not immutable or independently verifiable.
 
@@ -90,48 +90,3 @@ However, some functionalities commonly associated with blockchain projects are i
 - Eliminate traditional banking or payment systems
 
 These limitations are intentional and align with the project's objective of imporving verification and transaparency without attempting to fully restructure the existing real estate ecosystem.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
