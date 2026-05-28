@@ -107,7 +107,7 @@ These blockchain records create immutable references capable of validating trans
 
 ---
 
-2.6 API Communication 
+## 2.6 API Communication 
 
 Communication between system components occurs through APIs. The API layer standardizes interactions between frontend interfaces, backend services, database systems, and blockchain integration modules. This structure improves interoperability and simplifies future integrations while maintaining centralized communication management.
 
@@ -117,7 +117,7 @@ The communication flow also allows the frontend to reamain independent from bloc
 
 ---
 
-## Data Flow
+## 2.7 Data Flow
 
 The operational flow of DOMUS follows a structured sequence designed to maintain validation consistency and integrity verification throughout transaction processing.
 
