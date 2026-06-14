@@ -3,7 +3,7 @@
 ## 1.1 What is DOMUS?
 DOMUS is a real estate platform developed to improve the integrity and transparency of digital property transactions through blockchain-based verification mechanisms. The platform introduces blockchain not as a replacement for existing legal, banking, or governmental infrastructures, but as an additional verification layer capable of strengthening auditability and reducing risks related to data manipulation.
 
-The system follows a hybrid operational model that combines convetional Web2 infrastructure with Web3 verification mechanisms. Operational and sensitive information remains stored withing traditional backend systems, while cryptographic proofs are registered on blockchain networks to create immutable validation records. This architecture allows DOMUS to balance scalability, privacy, and security without exposing confidential transaction data publicly.
+The system follows a hybrid operational model that combines conventional Web2 infrastructure with Web3 verification mechanisms. Operational and sensitive information remains stored within traditional backend systems, while cryptographic proofs are registered on blockchain networks to create immutable validation records. This architecture allows DOMUS to balance scalability, privacy, and security without exposing confidential transaction data publicly.
 
 ---
 
