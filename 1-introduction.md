@@ -10,7 +10,7 @@ The system follows a hybrid operational model that combines conventional Web2 in
 ## 1.2 The Problem
 The traditional real estate sector still depends heavily on centralized digital infrastructures and bureaucratic validation processes. Although these systems are widely adopted, the transactions they support commonly involve multiple intermediaries, document exchanges, and institutional dependencies, which concentrates trust in the entities that control the records.
 
-Conventional platforms also present structural challenges related to data integrity and trust. Centralized databases may become vulnerable to unauthorized modifications, transaction histories are not always immutable, and validating the authenticity of records may require high institutional dependence. In addition, limited transparency during negotiations increases the risks associated with document fraud and data manipulation.
+This concentration creates structural challenges for data integrity and trust. Centralized databases may become vulnerable to unauthorized modifications, transaction records are not immutable, and validating their authenticity rests on trust assumptions. In addition, limited transparency during negotiations increases the risks associated with document fraud and data manipulation.
 
 These limitations become especially relevant in high-value transactions such as property negotiations. Integrity failures in such environments may generate financial disputes, legal uncertainty, and reduce trust between the involved parties.
 
