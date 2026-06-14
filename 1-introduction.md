@@ -12,7 +12,7 @@ The traditional real estate sector still depends heavily on centralized digital 
 
 Conventional platforms also present structural challenges related to data integrity and trust. Centralized databases may become vulnerable to unauthorized modifications, transaction histories are not always immutable, and validating the authenticity of records may require high institutional dependence. In addition, limited transparency during negotiations increases the risks associated with document fraud and data manipulation.
 
-These limitations become especially relevante in high-value transactions such as property negotiations. Integrity failures in such environments may generate financial disputes, legal uncertainty, and reduce trust between the involved parties.
+These limitations become especially relevant in high-value transactions such as property negotiations. Integrity failures in such environments may generate financial disputes, legal uncertainty, and reduce trust between the involved parties.
 
 ---
 
