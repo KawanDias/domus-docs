@@ -158,7 +158,7 @@ The hybrid infrastructure also allows independent scaling of backend services, d
 
 The architectural decisions adopted in DOMUS were designed to maintain efficiency, flexibility, maintainability, and compatibility with real-world operational requirements.
 
-Another important decision involves the adoption of modular system components. Each architectural layer operates independently and can evolve without requiring major structural modifications across the platform. This modularity simplifies maintenance procedures and supports future technological upgrades.
+DOMUS also adopts modular system components. Each architectural layer operates independently and can evolve without requiring major structural modifications across the platform. This modularity simplifies maintenance procedures and supports future technological upgrades.
 
 The platform also adopts API-based communication in order to standardize interactions between services and simplify future integrations. This approach improves system organization and reduces coupling between components.
 
