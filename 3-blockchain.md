@@ -123,7 +123,7 @@ Polygon is currently the preferred candidate due to its balance between scalabil
 
 ## 3.10 Gas Optimization
 
-Gas fees represent the operational costs associated with blockchain transactions. Since excessive blockchain usage can significantly increase expenses, DOMUS adopts strategies designed to minimize on-chain operations.
+Gas fees represent the operational costs associated with blockchain transactions. Because each on-chain operation incurs a gas fee, DOMUS adopts strategies designed to minimize on-chain operations.
 
 The platform stores only verification hashes on-chain, reduces transaction payload sizes, and prioritizes efficient smart contract design. Future implementations may also support batch processing techniques when appropriate.
 
