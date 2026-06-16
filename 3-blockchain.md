@@ -110,7 +110,7 @@ These timestamps provide evidence that specific information existed at a particu
 
 ## 3.9 Network Selection
 
-Blockchain networks selection directly impacts operational costs, transaction speed, scalability, and security. DOMUS may operate on different blockchain infrastructures depending on project requirements and operational priorities.
+Blockchain network selection directly impacts operational costs, transaction speed, scalability, and security. DOMUS may operate on different blockchain infrastructures depending on project requirements and operational priorities.
 
 | Network | Advantages | Limitations |
 |---|---|---|
