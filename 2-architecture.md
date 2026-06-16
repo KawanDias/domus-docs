@@ -24,16 +24,6 @@ The frontend layer is responsible for all user interactions within the DOMUS pla
 
 The frontend communicates with backend services through APIs and acts as the presentation layer of the system. Its primary objective is to provide a secure, acessible, and responsive interface for platform operations.
 
-### Frontend Responsibilities
-
-| Responsibility | Description |
-|---|---|
-| Property Visualization | Displays property listings and details | 
-| Proposal Submission | Allows users to create proposals | 
-| Transaction Monitoring | Tracks negotiation progress | 
-| User Authentication | Manages login and session validation | 
-Dashboard Interaction | Provides operational insights and controls | 
-
 Depending on platform requirements, the frontend may be implemented through differente interfaces.
 
 | Interface Type | Status | 
