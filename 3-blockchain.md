@@ -11,7 +11,7 @@ By adopting this approach, DOMUS combines the efficiency of traditional infrastr
 ## 3.2 Why Blockchain Instead of Traditional Validation?
 
 Traditional validation systems rely entirely on centralized databases controlled by a single organization.
-While these systems are efficiente for operational processing, they present limitations related to transparency, historical authenticity, and resistance to unauthorized modifications.
+While these systems are efficient for operational processing, they present limitations related to transparency, historical authenticity, and resistance to unauthorized modifications.
 
 Blockchain introduces characteristics that help mitigate these challenges by providing immutable records, distributed validation mechanisms, transparente auditing capabilities, and timestamped transaction histories. These properties make it possible to verify that a record has not been altered after its registration.
 
