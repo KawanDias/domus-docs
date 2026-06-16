@@ -140,7 +140,7 @@ Verification Record Storage
   ↓
 User Confirmation
 ```
-This operational model creates a verifiable relationship between off-chain operational data and blockchain-registered proofs while perserving scalability and privacy.
+This operational model creates a verifiable relationship between off-chain operational data and blockchain-registered proofs while preserving scalability and privacy.
 
 ---
 
