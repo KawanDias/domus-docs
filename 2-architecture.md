@@ -22,7 +22,7 @@ The platform adopts a hybrid architecture because storing all operational data d
 
 The frontend layer is responsible for all user interactions within the DOMUS platform. This layer provides the interfaces through which users access platform functionalities, submit information, monitor transactions, and interact with property-related data.
 
-The frontend communicates with backend services through APIs and acts as the presentation layer of the system. Its primary objective is to provide a secure, acessible, and responsive interface for platform operations.
+The frontend communicates with backend services through APIs and acts as the presentation layer of the system. Its primary objective is to provide a secure, accessible, and responsive interface for platform operations.
 
 ### Frontend Responsibilities
 
