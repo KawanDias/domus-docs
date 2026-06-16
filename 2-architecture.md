@@ -73,7 +73,7 @@ The backend also manages error handling, request validation, authentication proc
 
 The database layer is responsible for storing operational and transactional information required by the platform. DOMUS uses conventional database systems in order to preserve performance, scalability, and privacy while maintaining efficient access to system data.
 
-Sensitive information remains stored off-chain because blockchain networks are not designed for high-volume confidential data storage. This approach reduces operational costs and improves data managemement flexibility.
+Sensitive information remains stored off-chain because blockchain networks are not designed for high-volume confidential data storage. This approach reduces operational costs and improves data management flexibility.
 
 ### Stored Data
 
