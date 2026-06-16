@@ -150,7 +150,7 @@ The architecture of DOMUS was designed to minimize unnecessary blockchain depend
 
 This architectural decision reduces gas costs, minimizes blockchain congestion, and decreases transaction latency. By limiting blockchain interactions to essential verification processes, the platform supports larger transaction volumes without depending entirely on blockchain performance limitations.
 
-The hybrid infrastructure also allows independent scaling of backend services, databases, and frontend applications according to operational demand. This flexibility improves long-term maintainbility and infrastructure adaptability.
+The hybrid infrastructure also allows independent scaling of backend services, databases, and frontend applications according to operational demand. This flexibility improves long-term maintainability and infrastructure adaptability.
 
 ---
 
