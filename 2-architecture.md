@@ -34,7 +34,7 @@ The frontend communicates with backend services through APIs and acts as the pre
 | User Authentication | Manages login and session validation | 
 Dashboard Interaction | Provides operational insights and controls | 
 
-Depending on platform requirements, the frontend may be implemented through differente interfaces.
+Depending on platform requirements, the frontend may be implemented through different interfaces.
 
 | Interface Type | Status | 
 |---|---|
