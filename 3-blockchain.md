@@ -114,7 +114,7 @@ Blockchain network selection directly impacts operational costs, transaction spe
 
 | Network | Advantages | Limitations |
 |---|---|---|
-| Ethereum | Strong security and decentralization | Higher gas fees |
+| Ethereum | High security and decentralization | Higher gas fees |
 | Polygon | Lower costs and faster confirmations | Lower decentralization compared to Ethereum |
 
 Polygon is currently considered a strong candidate due to its balance between scalability, performance, and reduced transaction costs. However, the final network selection may vary according to future operational requirements.
