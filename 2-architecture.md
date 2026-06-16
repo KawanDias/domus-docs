@@ -82,7 +82,7 @@ Sensitive information remains stored off-chain because blockchain networks are n
 | User information | Account and profile records |
 | Property Records | Property metadata and listings | 
 | Proposal Details | Negotiation and offer information |
-| Transation History | Operational transaction logs |
+| Transaction History | Operational transaction logs |
 | Payment Metadata | Payment-related references |
 
 The database layer therefore functions as the primary operational storage infrastructure of the platform.
