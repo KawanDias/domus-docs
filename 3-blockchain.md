@@ -104,7 +104,7 @@ Future Integrity Validation
 
 Timestamp validation is one of the features provided by blockchain networks. Every blockchain transaction is associated with a chronological record that indicates when a verification event occurred.
 
-These timestamps provide evidence that specific information existed at a particular moment and allows events to be reconstructed in chronological order. This capability is useful during audits, complicance reviews, and legal or financial disputes where event sequencing must be indepedently verified.
+These timestamps provide evidence that specific information existed at a particular moment and allow events to be reconstructed in chronological order. This capability is useful during audits, compliance reviews, and legal or financial disputes where event sequencing must be independently verified.
 
 ---
 
