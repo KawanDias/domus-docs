@@ -41,7 +41,7 @@ Generated hash:
 
 > a7f5f35426b927411fc9231b56382173...
 
-Even a minimal modification to the original transaction data results in a completely differente output, making cryptographic hashes suitable for integrity verification.
+Even a minimal modification to the original transaction data results in a completely different output, making cryptographic hashes suitable for integrity verification.
 
 ---
 
