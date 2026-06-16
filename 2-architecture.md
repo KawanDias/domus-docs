@@ -4,7 +4,7 @@
 
 DOMUS is based on a hybrid multi-layer architecture that combines conventional web application infrastructure with blockchain verification mechanisms. The platform separates operational processing from immutable verification processes in order to balance scalability, maintainability, privacy, and security.
 
-The architecture is divided into independent layers responsible for specif operational domains. This separation allows each component to envolve independently while maintaining clear communication boundaries across the system.
+The architecture is divided into independent layers responsible for specific operational domains. This separation allows each component to evolve independently while maintaining clear communication boundaries across the system.
 
 | Layer | Primary Responsibility | Purpose |
 |---|---|---|
