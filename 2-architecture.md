@@ -91,7 +91,7 @@ The database layer therefore functions as the primary operational storage infras
 
 ## 2.5 Blockchain Layer
 
-The blockchain layer is responsible for immutable verification and auditability within the DOMUS architecture. Instead of storing complete transaction information publicly, the platform registers cryptographic hashes representing important transaction states.
+The blockchain layer is responsible for immutable verification and auditability within the DOMUS architecture. Instead of storing complete transaction information publicly, the platform registers cryptographic hashes representing transaction states.
 
 These blockchain records create immutable references capable of validating transaction integrity in future verification processes.
 
