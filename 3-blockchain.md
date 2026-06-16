@@ -29,7 +29,7 @@ Blockchain introduces characteristics that help mitigate these challenges by pro
 
 Cryptographic hashing is the core verification mechanism used by DOMUS. A cryptographic hash function transforms data into a fixed-length output that acts as a unique digital fingerprint of the original information.
 
-Any modification to the original data produces a completeley differente hash value. This characteristic allows the platform to detect unauthorized modifications by comparing newly generated hashes with previously registered blockchain records.
+Any modification to the original data produces a completely different hash value. This characteristic allows the platform to detect unauthorized modifications by comparing newly generated hashes with previously registered blockchain records.
 
 ### Example
 
