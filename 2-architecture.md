@@ -166,7 +166,7 @@ The platform also adopts API-based communication in order to standardize interac
 
 ## 2.10 Architectural Benefits
 
-The proposed architecture provides operational, technical, and security-related benefits for the DOMUS platform. By combining conventional infrastructure with blockchain verification mechanisms, the system achieves efficient operational performance while maintaining strong integrity validation capabilities.
+The proposed architecture provides operational, technical, and security-related benefits for the DOMUS platform. By combining conventional infrastructure with blockchain verification mechanisms, the system maintains operational performance while still detecting tampering through on-chain verification.
 
 The architecture improves scalability by preserving most operational processing within traditional infrastructure while limiting blockchain usage to immutable verification operations. This approach reduces operational costs and avoids unnecessary blockchain congestion.
 
