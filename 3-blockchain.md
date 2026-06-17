@@ -1,144 +1,165 @@
 # 3. Blockchain Integration
 
-## 3.1 Blockchain Purpose 
+## 3.1 Blockchain Purpose
+Blockchain technology is used within DOMUS as a verification and integrity assurance mechanism.
 
-Blockchain technology is used within DOMUS as a verification and integrity assurance mechanism. The primary objective of blockchain integration is not to store complete transactional information, but rather to create immutable cryptographic proofs capable of validating the authenticity of transaction records.
+The primary objective of blockchain integration is not to store complete transactional information, but rather to create immutable cryptographic proofs capable of validating the authenticity of transaction records.
 
-By adopting this approach, DOMUS combines the efficiency of traditional infrastructures with the integrity guarantees provided by blockchain networks.
+This approach allows the platform to combine the efficiency of traditional infrastructures with the security guarantees provided by decentralized systems.
 
 ---
 
 ## 3.2 Why Blockchain Instead of Traditional Validation?
+Traditional systems rely entirely on centralized databases controlled by single entities.
 
-Traditional validation systems rely entirely on centralized databases controlled by a single organization.
-While these systems are efficient for operational processing, they present limitations related to transparency, historical authenticity, and resistance to unauthorized modifications.
+Although efficient for operational purposes, centralized architectures present risks such as:
+- Unauthorized data modification
+- Internal manipulation
+- Single points of failure
+- Difficulty proving historical authenticity
 
-Blockchain introduces characteristics that help mitigate these challenges by providing immutable records, distributed validation mechanisms, transparent auditing capabilities, and timestamped transaction histories. These properties make it possible to verify that a record has not been altered after its registration.
+Blockchain introduces characteristics capable of mitigating these issues:
+- Immutability
+- Distributed validation
+- Transparent auditing
+- Timestamped records
+- Tamper resistance
 
-| Traditional Validation | Blockchain Verification | 
-|---|---|
-| Centralized control | Distributed validation |
-| Editable records | Immutable records | 
-| Limited auditability | Transparent audit trail| 
-| Single point of failure | Decentralized infrastructure | 
-| Internal trust required | Independent verification |
+DOMUS leverages these characteristics to establish trust in transaction verification processes.
 
 ---
 
 ## 3.3 Cryptographic Hashing
+The core verification mechanism used by DOMUS is cryptographic hashing.
 
-Cryptographic hashing is the core verification mechanism used by DOMUS. A cryptographic hash function transforms data into a fixed-length output that acts as a unique digital fingerprint of the original information.
-
-Any modification to the original data produces a completely different hash value. This characteristic allows the platform to detect unauthorized modifications by comparing newly generated hashes with previously registered blockchain records.
+A hash function transforms data into a fixed-size string that acts as a unique digital fingerprint.
 
 ### Example
-
 Original transaction data:
+`Buyer + Seller + Property + Timestamp`
 
-> Buyer + Seller + Property + Timestamp
+Generated output: 
+`a7f5f35426b927411fc9231b56382173...`
 
-Generated hash: 
-
-> a7f5f35426b927411fc9231b56382173...
-
-Even a minimal modification to the original transaction data results in a completely different output, making cryptographic hashes suitable for integrity verification.
+Even minimal modifications in the original data generate completely different hashes.
 
 ---
 
 ## 3.4 Hashing Algorithms
+DOMUS may use secure cryptographic algorithms such as:
+- SHA-256
+- Keccak-256
 
-Hashing algorithms are responsible for generating the cryptographic fingerprints used throughout the verification process. DOMUS may adopt industry-standard algorithms such as SHA-256 and Keccak-256, both widely used within blockchain ecosystems due to their reliability, security, and resistance to collisions.
+These algorithms are widely adopted in blockchain infrastructures due to their collision resistance and integrity guarantees.
 
-These algorithms make it computationally impractical to reconstruct the original data from a generated hash and help ensure the consistency of verification records.
-
---- 
+---
 
 ## 3.5 On-chain vs Off-chain Architecture
+DOMUS follows a hybrid architecture that separates operational data from verification records.
 
-DOMUS follows a hybrid architecture that separates operational data from verification records. This design allows the platform to preserve privacy, reduce costs, and maintain scalability while still benefiting from blockchain verification.
+### Off-chain Data
+Stored in traditional databases:
+- User information
+- Property records
+- Financial data
+- Proposal details
+- Internal metadata
 
-Operational and sensitive information remains stored in conventional databases, while blockchain networks store only the information required for validation processes.
+### On-chain Data
+Stored on blockchain networks:
+- Transaction hashes
+- Verification timestamps
+- Smart contract events
 
-| Off-chain Data | On-chain Data | 
-|---|---|
-| User information | Transaction hashes | 
-| Property records | Verification timestamps |
-| Financial information | Smart contract events | 
-| Proposal details | Proof references | 
-| Internal metadata | Verification records |
+This strategy reduces costs while preserving privacy. The tradeoff is that the proof depends on the off-chain data remaining available; if it is lost, the on-chain proof alone proves nothing.
 
 ---
 
 ## 3.6 Smart Contracts
+Smart contracts are autonomous programs deployed on blockchain networks.
 
-Smart contracts are autonomous programs deployed on blockchain networks that execute predefined logic without requiring direct human intervention. Within DOMUS, smart contracts are used to manage verification-related operations and blockchain registration processes.
-
-These contracts may register transaction hashes, associate timestamps with verification events, manage proof records, and provide public validation endpoints. Because smart contracts execute deterministically, they help ensure consistency in verification procedures.
+Within DOMUS, smart contracts may be responsible for:
+- Registering hashes
+- Associating timestamps
+- Managing verification events
+- Providing public validation endpoints
 
 ---
 
 ## 3.7 Verification Lifecycle
+The blockchain verification process follows multiple stages.
 
-The verification lifecycle describes how transaction data becomes a blockchain-registered proof. This process establishes the relationship between operational records and blockchain validation data.
+### Step 1 - Transaction Creation
+The platform generates or updates transaction data.
 
-The lifecycle begins when a transaction is created or updated within the platform. The backend generates a cryptographic hash representing the transaction state and submits it to a smart contract. Once the blockchain network confirms the transaction, the verification record becomes permanent and available for future validation.
+### Step 2 - Hash Generation
+The backend generates a cryptographic hash from the transaction payload.
 
-### Verification flow
+### Step 3 - Blockchain Registration
+The hash is sent to the blockchain through a smart contract transaction.
 
-```text
-Transaction Creation
-  ↓
-Hash Generation
-  ↓
-Smart Contract Submission
-  ↓
-Blockchain Confirmation
-  ↓
-Immutable Verification Record
-  ↓
-Future Integrity Validation
-```
----
+### Step 4 - Confirmation
+After network validation, the hash becomes immutable.
+
+### Step 5 - Future Verification
+The platform may recalculate hashes and compare them with blockchain records.
+
+--- 
 
 ## 3.8 Timestamp Validation
+Blockchain transactions naturally generate timestamps.
 
-Timestamp validation is one of the features provided by blockchain networks. Every blockchain transaction is associated with a chronological record that indicates when a verification event occurred.
+These timestamps provide:
+- Chronological verification
+- Proof of existence
+- Historical ordering
 
-These timestamps provide evidence that specific information existed at a particular moment and allow events to be reconstructed in chronological order. This capability is useful during audits, compliance reviews, and legal or financial disputes where event sequencing must be independently verified.
+This feature is particularly important in legal or financial disputes.
 
 ---
 
 ## 3.9 Network Selection
+DOMUS may operate on a blockchain network such as:
 
-Blockchain network selection directly impacts operational costs, transaction speed, scalability, and security. DOMUS may operate on different blockchain infrastructures depending on project requirements and operational priorities.
+### Ethereum
+Advantages: 
+- High decentralization
+- Strong security
 
-| Network | Advantages | Limitations |
-|---|---|---|
-| Ethereum | High security and decentralization | Higher gas fees |
-| Polygon | Lower costs and faster confirmations | Lower decentralization compared to Ethereum |
+Disadvantages:
+- High gas fees
 
-Polygon is currently the preferred candidate due to its balance between scalability, performance, and reduced transaction costs. However, the final network selection may vary according to future operational requirements.
+### Polygon
+Advantages:
+- Lower operational costs
+- Faster confirmations
+
+Disadvantages:
+- Slightly lower decentralization
+
+Polygon is considered a strong candidate due to its scalability and reduced fees.
 
 ---
 
 ## 3.10 Gas Optimization
-
 Gas fees represent the operational costs associated with blockchain transactions. Because each on-chain operation incurs a gas fee, DOMUS adopts strategies designed to minimize on-chain operations.
 
-The platform stores only verification hashes on-chain, reduces transaction payload sizes, and prioritizes efficient smart contract design. Future implementations may also support batch processing techniques when appropriate.
+Following the hybrid design (3.5), the platform optimizes these costs by reducing transaction payload sizes and prioritizing efficient smart contract design. Future implementations may also support batch processing techniques when appropriate.
 
 ---
 
 ## 3.11 Blockchain Limitations
+Despite its benefits, blockchain technology also presents limitations.
 
-Blockchain technology introduces operational constraints such as transaction fees, network congestion, scalability limitations, and dependency on network availability.
+### Main limitations include:
+- Transaction fees
+- Network congestion
+- Scalability restrictions
+- Dependency on internet connectivity
 
-DOMUS mitigates these constraints by limiting blockchain usage to verification-related operations while keeping transactional processing within conventional infrastructure.
+DOMUS mitigates these constraints by leveraging the hybrid architecture split (3.5).
 
 ---
 
 ## 3.12 Key Benefits of Integration
-
-The blockchain integration model adopted by DOMUS creates an independent verification mechanism for transaction records. By combining conventional infrastructure with blockchain-based proof registration, the platform enables integrity validation without exposing operational data publicly.
-
-This approach improves traceability, simplifies verification procedures, and provides permanent evidence that specific transaction states existed at a particular moment in time. As a result, transaction records become easier to audit and more resistant to unauthorized modification.
+Together, cryptographic hashing (3.3), on-chain proof registration (3.6), and blockchain timestamps (3.8) give DOMUS tamper-evident, independently auditable transaction records without exposing operational data.
