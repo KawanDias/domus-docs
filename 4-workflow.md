@@ -52,7 +52,7 @@ A final cryptographic hash is generated and recorded on the blockchain. This rec
 
 The audit process allows previously recorded transactions to be validated at any point in time. During a verification procedure, the platform recalculates the hash associated with the stored transaction data and compares the result against the corresponding blockchain record.
 
-If both values match, the transaction data remains consistent with the information originally registered. If the values differ, the verification process indicates that be stored data no longer corresponds to the blockchain proof and should be investigated.
+If both values match, the transaction data remains consistent with the information originally registered. If the values differ, the verification process indicates that the stored data no longer corresponds to the blockchain proof and should be investigated.
 
 ### Workflow Summary
 
