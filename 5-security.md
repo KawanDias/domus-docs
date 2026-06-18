@@ -10,7 +10,7 @@ Rather than relying exclusively on blockchain technology, the platform adopts a 
 
 ## 5.2 Cryptographic Hashing
 
-Cryptograhic Hashing is one of the primary security mechanisms used within DOMUS. Hash functions transform transactions data into fixed-lenght outputs that act as digital fingerprints of the original information.
+Cryptographic hashing is one of the primary security mechanisms used within DOMUS. Hash functions transform transaction data into fixed-length outputs that act as digital fingerprints of the original information.
 
 These hashes are generated from relevant transaction records and subsequently registered on the blockchain. Because hash functions are deterministic, the same input always produces the same output, while any modification to the original data results in a completely different hash value.
 
