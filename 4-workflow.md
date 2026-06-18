@@ -74,7 +74,7 @@ Audit and Verification
 
 The workflow adopted by DOMUS establishes a verifiable record of transaction events without requiring sensitive operational information to be stored on-chain.
 
-By combining conventional transaction processign with blockchain-based proof registration, the platform improves traceability and simplifies future verification procedures. This approach enables transaction states to be independently validated while maintaining the efficiency and privacy of traditional infrastructure.
+By combining conventional transaction processing with blockchain-based proof registration, the platform improves traceability and simplifies future verification procedures. However, the tradeoff is that validation entirely depends on the off-chain data remaining available; if this data is lost or corrupted, the on-chain hash alone cannot validate anything beyond proving past existence.
 
 
 
