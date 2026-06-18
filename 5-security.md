@@ -4,7 +4,7 @@
 
 Security within DOMUS is based on a combination of conventional application security practices and blockchain-based verification mechanisms. The objective is to protect transaction records, preserve data integrity, and provide reliable methods for detecting unauthorized modifications.
 
-Rather than relying exclusively on blockchain technology, the platform adopts a layered security approach. Traditional infrastructure remains responsible for authentication, authorization, and operational data management, while blockchain mechanisms provide independent verification of critical transaction records.
+Rather than relying exclusively on blockchain technology, the platform adopts a layered security approach. Traditional infrastructure remains responsible for authentication, authorization, and operational data management, while blockchain mechanisms provide independent verification of transaction records.
 
 ---
 
