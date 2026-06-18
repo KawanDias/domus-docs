@@ -8,7 +8,7 @@ The operational workflow of DOMUS defines how transaction events are processed, 
 
 ## 4.2 Property Listing
 
-The workflow begins when a seller registers a property within the platform. During this stage, property information is stored in the platform databse and becomes available for consultation by potential buyers.
+The workflow begins when a seller registers a property within the platform. During this stage, property information is stored in the platform database and becomes available for consultation by potential buyers.
 
 No blockchain interaction occurs at this stage because the property listing process does not yet represent a transactional commitment between parties. The information remains entirely within the operational infrastructure of the platform.
 
