@@ -62,7 +62,7 @@ Although blockchain verification improves resistance to manipulation, it should 
 
 The security model adopted by DOMUS combines multiple layers of protection that operate together throughout the transaction lifecycle.
 
-Traditional infrastructure is responsible for authentication, access control, database protection, and operational security procedures. Blockchain technology complements these mechanisms by providing independent verification of transaction records through cryptographic proof registration.
+This framework operationalizes the layered approach described in 5.1, integrating both structural environments to protect the system without duplicating core infrastructure responsibilities.
 
 This hybrid model allows the platform to balance security, privacy, operational efficiency, and long-term maintainability while avoiding unnecessary dependence on blockchain infrastructure.
 
