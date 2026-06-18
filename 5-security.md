@@ -52,7 +52,7 @@ The transparency provided by this model applies to verification data only. Sensi
 
 DOMUS incorporates security mechanisms designed to reduce risks associated with unauthorized data modification and record manipulation. By maintaining immutable verification proofs, the platform makes it easier to identify discrepancies between stored information and previously registered transaction states.
 
-These mechanisms help detect attempts to alter records after verification events have ocurred. They also strengthen the reliability of transaction histories by providing evidence that specific transaction states existed at a particular point in time.
+These mechanisms help detect attempts to alter records after verification events have occurred. They also strengthen the reliability of transaction histories by providing evidence that specific transaction states existed at a particular point in time.
 
 Although blockchain verification improves resistance to manipulation, it should be understood as a verification mechanism rather than a complete fraud prevention solution.
 
