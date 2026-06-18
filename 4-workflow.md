@@ -22,7 +22,7 @@ Once the proposal has been created, the system generates a cryptographic hash re
 
 ---
 
-## 4.4  Seller Acceptance
+## 4.4 Seller Acceptance
 
 The seller acceptance stage occurs when the property owner formally accepts a proposal submitted through the platform. This action changes the transaction state and creates a new verification event.
 
