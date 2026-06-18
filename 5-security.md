@@ -68,7 +68,7 @@ This hybrid model allows the platform to balance security, privacy, operational 
 
 ---
 
-## Security Limitations
+## 5.8 Security Limitations
 
 No security architecture can eliminate all possible risks. While blockchain verification provides strong guarantees regarding the integrity of registered records, it cannot determine whether the original information submitted to the platform was accurate or intentionally misleading.
 
