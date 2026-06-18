@@ -50,7 +50,7 @@ The transparency provided by this model applies to verification data only. Sensi
 
 ## 5.6 Fraud Prevention
 
-DOMUS incorporates security mechanisms designed to reduce risks associated with unauthorized data modification and record manipulation. By maintaining immutable verification proofs, the platform makes it significantly easier to identify discrepancies between stored information and previously registered transaction states. 
+DOMUS incorporates security mechanisms designed to reduce risks associated with unauthorized data modification and record manipulation. By maintaining immutable verification proofs, the platform makes it easier to identify discrepancies between stored information and previously registered transaction states.
 
 These mechanisms help detect attempts to alter records after verification events have ocurred. They also strengthen the reliability of transaction histories by providing evidence that specific transaction states existed at a particular point in time.
 
