@@ -2,7 +2,7 @@
 
 ## 4.1 Overview
 
-The operational workflow of DOMUS defines how transaction events are processed, validated, and recorded throughout the platform. Each stage produces records that contribute to the overral traceability of the transaction lifecycle.
+The operational workflow of DOMUS defines how transaction events are processed, validated, and recorded throughout the platform. Each stage produces records that contribute to the overall traceability of the transaction lifecycle.
 
 ---
 
