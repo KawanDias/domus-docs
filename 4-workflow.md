@@ -28,8 +28,6 @@ The seller acceptance stage occurs when the property owner formally accepts a pr
 
 The backend generates a new cryptographic hash that includes the updated transaction information. This hash is subsequently registered on the blockchain, creating a new immutable proof associated with the acceptance event.
 
-The backend generates a new cryptographic hash that includes the updated transaction information. This hash is subsequently registered on the blockchain, creating a new immutable proof associated with the acceptance event.
-
 ---
 
 ## 4.5 Payment Registration
