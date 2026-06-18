@@ -44,7 +44,7 @@ After payment confirmation, the platform generates a cryptographic hash derived 
 
 The transaction finalization stage marks the conclusion of the negotiation process. At this point, the platform generates a final transaction summary containing the information required to represent the completed state of the operation.
 
-A final cryptograhic hash is generated and recordeed on the blockchain. This record becomes the definitive verification reference associated with the completed transaction.
+A final cryptographic hash is generated and recorded on the blockchain. This record becomes the definitive verification reference associated with the completed transaction.
 
 ---
 
