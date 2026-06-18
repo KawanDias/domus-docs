@@ -34,7 +34,7 @@ Immutability is one of the security properties provided by blockchain networks. 
 
 Within DOMUS, immutability applies to the cryptographic proofs registered on-chain rather than to the operational data itself. This distinction allows the platform to preserve the flexibility of conventional databases while maintaining permanent verification references for audit and validation purposes.
 
-As a result, historical verification records remain available as long-term evidence of previous transaction states
+As a result, historical verification records remain available as long-term evidence of previous transaction states.
 
 ---
 
