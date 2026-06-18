@@ -30,7 +30,7 @@ This process allows unauthorized modifications to be detected without exposing s
 
 ## 5.4 Immutability 
 
-Immutability is one of the security properties provided by blockchain networks. Once a verification record has been confirmed and included in the blockchain, it becomes extremely difficult to alter without compromissing the underlying network consensus mechanisms.
+Immutability is one of the security properties provided by blockchain networks. Once a verification record has been confirmed and included in the blockchain, it becomes difficult to alter without compromising the underlying network consensus mechanisms.
 
 Within DOMUS , immutability applies to the cryptographic proofs registered on-chain rather than to the operational data itself. This distinction allows the platform to preserve the flexibility of conventional databases while maintaining permanent verification references for audit and validation purposes.
 
