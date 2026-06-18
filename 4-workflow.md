@@ -72,7 +72,7 @@ Audit and Verification
 
 ## 4.9 Key Advantage
 
-The workflow adopted by DOMUS establishes a verifiable record of important transaction events without requiring sensitive operational information to be stored on-chain.
+The workflow adopted by DOMUS establishes a verifiable record of transaction events without requiring sensitive operational information to be stored on-chain.
 
 By combining conventional transaction processign with blockchain-based proof registration, the platform improves traceability and simplifies future verification procedures. This approach enables transaction states to be independently validated while maintaining the efficiency and privacy of traditional infrastructure.
 
