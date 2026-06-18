@@ -52,7 +52,7 @@ The audit process allows previously recorded transactions to be validated at any
 
 If both values match, the transaction data remains consistent with the information originally registered. If the values differ, the verification process indicates that the stored data no longer corresponds to the blockchain proof and should be investigated.
 
-### Workflow Summary
+## 4.8 Workflow Summary
 
 ```text
 Property Listing
@@ -70,7 +70,7 @@ Audit and Verification
 
 ---
 
-## 4.8 Key Advantage
+## 4.9 Key Advantage
 
 The workflow adopted by DOMUS establishes a verifiable record of important transaction events without requiring sensitive operational information to be stored on-chain.
 
