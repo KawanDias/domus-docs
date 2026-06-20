@@ -151,6 +151,18 @@ After:
 
 ---
 
+## Engineering documents
+
+The rules above govern prose. The engineering documents under `drafts/`, `design/`, and `fmas/` follow templates that also use tables and labeled entries, because a tech design or failure mode analysis is read by scanning to the relevant part, not from top to bottom. Where a recognized format calls for that structure, prefer it over prose:
+
+- Summary, state-transition, and invariant tables stay as tables.
+- Failure mode findings keep their `**Description:** / **Impact:** / **Mitigation:**` lead-ins.
+- Function and storage-slot specifications stay as itemized lists.
+
+This is a scoped exception to rules 3 and 10 only. Everything else still applies to these documents: sentence case headings (rule 7), no em dashes (rule 9), no amplifying adjectives (rule 8), and naming the tradeoff of a decision rather than only its benefit (rule 5). The tradeoff of allowing the scannable structure is that a document can drift into all tables and no reasoning, so the prose around each table must still carry the argument.
+
+---
+
 ## Checklist before submitting a PR
 
 Before opening a documentation PR, read each affected file once more with the following in mind:
